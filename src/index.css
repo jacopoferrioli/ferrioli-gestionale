@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.btn {
+  @apply inline-block bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700;
+}
+.input {
+  @apply border border-gray-300 rounded px-4 py-2 focus:outline-none focus:border-blue-500;
+}
